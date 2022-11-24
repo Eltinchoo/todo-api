@@ -27,7 +27,7 @@ const Users = db.define('users', {
         unique:true
     },
     birthday:{
-        type:DataTypes.DATE,
+        type:DataTypes.DATEONLY,
         unique:true,
         defaultValue: false
     }
